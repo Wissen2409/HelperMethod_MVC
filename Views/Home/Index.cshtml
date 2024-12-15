@@ -1,4 +1,5 @@
-﻿
+﻿@model Ogrenci
+
 @using Helpers
 
 <p>Tarih : @MyHelper.FormatDate(DateTime.Now)</p>
@@ -9,3 +10,6 @@
 @Html.CustomLabel("Bu label bizim tarafımızdan yazılmıştır")
 
 @Html.CustomTextBox("customtextbox","bu textbox bizim tarafımızdan yazıldı","My TextBox")
+
+
+@Html.WissenTextBoxFor(s=>s.Name,"Name","form-control",new {ogrenciid="bir attribute"})

@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using HelperMethod_MVC.Models;
+using Helpers;
 
 namespace HelperMethod_MVC.Controllers;
 
@@ -11,6 +12,12 @@ public class HomeController : Controller
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
+        string a = "merhaba ben string bir değerim";
+        string value = a.Reverse();
+
+
+        Random rnd = new Random();
+        string randomString = rnd.NextString(10);
     }
 
     public IActionResult Index()

@@ -28,3 +28,4 @@
 /Users/emrahelis/HelperMethod_MVC/obj/Debug/net8.0/HelperMethod_MVC.pdb
 /Users/emrahelis/HelperMethod_MVC/obj/Debug/net8.0/HelperMethod_MVC.genruntimeconfig.cache
 /Users/emrahelis/HelperMethod_MVC/obj/Debug/net8.0/ref/HelperMethod_MVC.dll
+/Users/emrahelis/HelperMethod_MVC/obj/Debug/net8.0/HelperMethod_MVC.sourcelink.json
