@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/HelperMethod_MVC.props" />
+</Project>

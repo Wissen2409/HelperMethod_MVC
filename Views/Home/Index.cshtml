@@ -1,0 +1,11 @@
+﻿
+@using Helpers
+
+<p>Tarih : @MyHelper.FormatDate(DateTime.Now)</p>
+<p>Büyük Harf : @MyHelper.ToUpperCase("girdiğim değerler büyük harf olarak dönüşecektir")</p>
+
+
+
+@Html.CustomLabel("Bu label bizim tarafımızdan yazılmıştır")
+
+@Html.CustomTextBox("customtextbox","bu textbox bizim tarafımızdan yazıldı","My TextBox")
