@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HelperMethod_MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32ef01875ba867a4bd183e961645b7143248ba9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+106e536c033db317ea7d3b18894530ef1b733e55")]
 [assembly: System.Reflection.AssemblyProductAttribute("HelperMethod_MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HelperMethod_MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

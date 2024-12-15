@@ -60,6 +60,7 @@ namespace Helpers
             var metadata = htmlHelper.ViewData.ModelMetadata
             .Properties.FirstOrDefault(s => s.PropertyName == ((MemberExpression)expression.Body)
             .Member.Name);
+
             string name = htmlHelper.NameFor(expression).ToString();
             string value = htmlHelper.ValueFor(expression).ToString();
 
